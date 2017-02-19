@@ -16,7 +16,7 @@ namespace assignment02
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new VaporWave());
+            Application.Run(new Form1());
         }
     }
 }

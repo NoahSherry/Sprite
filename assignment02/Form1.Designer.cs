@@ -1,6 +1,6 @@
 ﻿namespace assignment02
 {
-    partial class VaporWave
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			this.SuspendLayout();
 			// 
-			// VaporWave
+			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackgroundImage = global::assignment02.Properties.Resources.vapor;
+			this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 			this.ClientSize = new System.Drawing.Size(284, 261);
-			this.Name = "VaporWave";
+			this.Name = "Form1";
 			this.Text = "It\'s Lit";
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.ResumeLayout(false);

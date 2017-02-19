@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Media;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace assignment02
 {
-    public partial class VaporWave : Form
+    public partial class Form1 : Form
     {
 		SoundPlayer player = new SoundPlayer(Properties.Resources.wave);
 		public static SpriteSprite Sprite = new SpriteSprite();
@@ -22,7 +16,7 @@ namespace assignment02
 		public static int fps = 30;
 		public static double running_fps = 30.0;
 
-		public VaporWave()
+		public Form1()
         {
             InitializeComponent();
 			DoubleBuffered = true;
